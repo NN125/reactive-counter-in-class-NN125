@@ -1,12 +1,12 @@
 let count = 0;
 
-function updateDisplay() {
+function render() {
   document.getElementById("count-display").textContent = count;
 }
 
 function setCount(newCount) {
   count = newCount;
-  updateDisplay();
+  render();
 }
 
 document.getElementById("increment").addEventListener("click", () => {
@@ -21,4 +21,4 @@ document.getElementById("reset").addEventListener("click", () => {
   setCount(0);
 });
 
-updateDisplay();
+render();
