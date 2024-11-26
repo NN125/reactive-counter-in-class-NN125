@@ -1,6 +1,6 @@
 import Button from "./components/button";
 import Count from "./components/count";
-import state from "./state";
+import state from "./components/state";
 
 const app = document.querySelector("#app");
 
