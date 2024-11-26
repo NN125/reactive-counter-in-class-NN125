@@ -13,3 +13,7 @@ function setCount(newCount) {
 document.getElementById("increment").addEventListener("click", () => {
   setCount(count + 1);
 });
+
+document.getElementById("decrement").addEventListener("click", () => {
+  setCount(count - 1);
+});
