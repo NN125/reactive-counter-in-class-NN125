@@ -21,3 +21,5 @@ document.getElementById("decrement").addEventListener("click", () => {
 document.getElementById("reset").addEventListener("click", () => {
   setCount(0);
 });
+
+updateDisplay();
