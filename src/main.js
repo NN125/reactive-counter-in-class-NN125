@@ -17,3 +17,7 @@ document.getElementById("increment").addEventListener("click", () => {
 document.getElementById("decrement").addEventListener("click", () => {
   setCount(count - 1);
 });
+
+document.getElementById("reset").addEventListener("click", () => {
+  setCount(0);
+});
