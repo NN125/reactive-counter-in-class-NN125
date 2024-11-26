@@ -11,22 +11,11 @@
   </head>
 
   <body>
-    <div class="p-8 text-center">
-      <h2 class="text-lg">Simple Counter</h2>
-      <div id="count-display" class="text-xl">0</div>
-      <button
-        id="increment"
-        class="size-16 rounded bg-green-500 py-2 text-white"
-      >
-        +1
-      </button>
-      <button id="decrement" class="size-16 rounded bg-red-500 py-2 text-white">
-        -1
-      </button>
-      <button id="reset" class="size-16 rounded bg-blue-500 py-2 text-white">
-        Reset
-      </button>
-    </div>
-    <script src="src/main.js"></script>
+    <div
+      id="app"
+      class="flex min-h-screen flex-col items-center gap-4 bg-slate-900 text-white"
+    ></div>
+
+    <script type="module" src="src/main.js"></script>
   </body>
 </html>
